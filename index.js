@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-let PORT = 5000;
+let PORT = process.env.PORT || 5000;
 let express = require('express');
 let app = express();
 
